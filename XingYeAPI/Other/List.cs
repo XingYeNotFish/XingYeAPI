@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace XingYeAPI.Other
 {
@@ -22,17 +18,15 @@ namespace XingYeAPI.Other
             "Dr. Parallax", "Dr. Vortex", "Dr. Specter", "Dr. Omega", "Dr. Enigma", "Dr. Obsidian",
             "Dr. Celestial", "Dr. Aether", "Dr. Cipher", "Dr. Mirage", "Dr. Illusion", "Dr. Abyss",
             "Dr. Horizon", "Dr. Zenith", "Dr. Aftermath", "Dr. Twilight", "Dr. Cataclysm", "Dr. Vertex",
-            "Dr. Quantum", "Dr. Nexus", "Dr. Chimera", "Dr. Ethereal", "Dr. Nebula", "Dr. Lucid",
-            "Dr. Mirage", "Dr. Rift", "Dr. Chronos", "Dr. Flux", "Dr. Cryptic", "Dr. Tempest", "Dr. Elysium",
+            "Dr. Quantum", "Dr. Chimera", "Dr. Ethereal", "Dr. Nebula", "Dr. Lucid",
+            "Dr. Rift", "Dr. Chronos", "Dr. Flux", "Dr. Cryptic", "Dr. Tempest", "Dr. Elysium",
             "Dr. Tesseract", "Dr. Folklore", "Dr. Infinity", "Dr. Elemental", "Dr. Hologram", "Dr. Spectral",
-            "Dr. Eclipsed", "Dr. Horizon", "Dr. Alchemy", "Dr. Enclave", "Dr. Void", "Dr. Apex", "Dr. Arcane",
+            "Dr. Eclipsed", "Dr. Alchemy", "Dr. Enclave", "Dr. Void", "Dr. Apex", "Dr. Arcane",
             "Dr. Prismatic", "Dr. Celestine", "Dr. Helix", "Dr. Ember", "Dr. Aetherial", "Dr. Fusion", "Dr. Lyric",
             "Dr. Nimbus", "Dr. Serendipity", "Dr. Catalyst", "Dr. Fathom", "Dr. Luminous", "Dr. Conundrum",
             "Dr. Ethos", "Dr. Parable", "Dr. Harbinger", "Dr. Echo", "Dr. Tranquil", "Dr. Solstice", "Dr. Spectrum",
-            "Dr. Apex", "Dr. Legacy", "Dr. Mirage", "Dr. Zenith", "Dr. Shimmer", "Dr. Paradox", "Dr. Wander",
-            "Dr. Seraph", "Dr. Kaleidoscope", "Dr. Requiem", "Dr. Untamed", "Dr. Arcadia", "Dr. Chronicle",
-            "Dr. Bizarre", "Dr. Frequency", "Dr. Anomaly", "Dr. Mirage", "Dr. Seer", "Dr. Obliquity", "Dr. Luminary",
-            "Dr. Myriad", "Dr. Elysium", "Dr. Enigma", "Dr. Rift", "Dr. Nexus", "Dr. Cipher", "Dr. Infinity", "Dr. Aurora"
+            "Dr. Legacy", "Dr. Shimmer", "Dr. Wander", "Dr. Seraph", "Dr. Kaleidoscope", "Dr. Requiem", "Dr. Untamed",
+            "Dr. Arcadia", "Dr. Chronicle", "Dr. Bizarre", "Dr. Frequency", "Dr. Luminary", "Dr. Myriad", "Dr. Aurora"
         };
 
         /// <summary>
@@ -118,8 +112,6 @@ namespace XingYeAPI.Other
             { "Dr. Chronicle", "Aaron Chronicle" },
             { "Dr. Bizarre", "Brenda Bizarre" },
             { "Dr. Frequency", "Charlie Frequency" },
-            { "Dr. Seer", "Diana Seer" },
-            { "Dr. Obliquity", "Ethan Obliquity" },
             { "Dr. Luminary", "Freddie Luminary" },
             { "Dr. Myriad", "Greta Myriad" },
             { "Dr. Aurora", "Henry Aurora" }
@@ -142,22 +134,20 @@ namespace XingYeAPI.Other
             "Agent Vortex", "Agent Nebula", "Agent Comet", "Agent Polaris",
             "Agent Ember", "Agent Serpent", "Agent Catalyst", "Agent Reaper",
             "Agent Vigilante", "Agent Paradox", "Agent Seraph", "Agent Nomad",
-            "Agent Tempest", "Agent Dynamo", "Agent Keystone", "Agent Pulse",
+            "Agent Dynamo", "Agent Keystone", "Agent Sterling",
             "Agent Talisman", "Agent Sable", "Agent Reckoning", "Agent Warden",
             "Agent Fracture", "Agent Apex", "Agent Horizon", "Agent Solstice",
             "Agent Phoenix", "Agent Arcane", "Agent Vengeance", "Agent Titan",
             "Agent Fallout", "Agent Stratus", "Agent Haze", "Agent Fable",
-            "Agent Reactor", "Agent Blaze", "Agent Golem", "Agent Valor",
+            "Agent Reactor", "Agent Nightshade", "Agent Golem", "Agent Valor",
             "Agent Luminary", "Agent Strider", "Agent Abyss", "Agent Ashes",
-            "Agent Catalyst", "Agent Legacy", "Agent Sentinel", "Agent Cryptic",
+            "Agent Atlas", "Agent Legacy", "Agent Ward", "Agent Cryptic",
             "Agent Fission", "Agent Elysium", "Agent Drift", "Agent Dolce",
-            "Agent Vanguard", "Agent Surge", "Agent Cipher", "Agent Thorne",
-            "Agent Wraith", "Agent Nighthawk", "Agent Haven", "Agent Locus",
-            "Agent Feral", "Agent Mirage", "Agent Equinox", "Agent Vanguard",
-            "Agent Havoc", "Agent Oracle", "Agent Resistance", "Agent Zenith",
-            "Agent Mistral", "Agent Solstice", "Agent Nightshade", "Agent Cinder",
+            "Agent Vanguard", "Agent Surge", "Agent Code", "Agent Thorne",
+            "Agent Nighthawk", "Agent Haven", "Agent Locus", "Agent Feral",
+            "Agent Equinox", "Agent Havoc", "Agent Resistance", "Agent Mistral",
             "Agent Gloom", "Agent Plague", "Agent Radiant", "Agent Stalker",
-            "Agent Strider", "Agent Kismet", "Agent Rift", "Agent Catalyst"
+            "Agent Kismet", "Agent Volt"
         };
 
         /// <summary>
@@ -213,10 +203,9 @@ namespace XingYeAPI.Other
             { "Agent Paradox", "Perry Paradox" },
             { "Agent Seraph", "Sophie Seraph" },
             { "Agent Nomad", "Nina Nomad" },
-            { "Agent Tempest", "Tina Tempest" },
             { "Agent Dynamo", "Daniel Dynamo" },
             { "Agent Keystone", "Kathy Keystone" },
-            { "Agent Pulse", "Peter Pulse" },
+            { "Agent Sterling", "Alex Sterling" },
             { "Agent Talisman", "Tina Talisman" },
             { "Agent Sable", "Sofia Sable" },
             { "Agent Reckoning", "Rob Reckoning" },
@@ -234,16 +223,16 @@ namespace XingYeAPI.Other
             { "Agent Haze", "Harper Haze" },
             { "Agent Fable", "Finn Fable" },
             { "Agent Reactor", "Rita Reactor" },
-            { "Agent Blaze", "Bailey Blaze" },
+            { "Agent Nightshade", "Ethan Nightshade" },
             { "Agent Golem", "Graham Golem" },
             { "Agent Valor", "Victoria Valor" },
             { "Agent Luminary", "Lucy Luminary" },
             { "Agent Strider", "Simon Strider" },
             { "Agent Abyss", "Abigail Abyss" },
             { "Agent Ashes", "Aaron Ashes" },
-            { "Agent Catalyst", "Chloe Catalyst" },
+            { "Agent Atlas", "Nathanael Atlas" },
             { "Agent Legacy", "Liam Legacy" },
-            { "Agent Sentinel", "Sabrina Sentinel" },
+            { "Agent Ward", "Caleb Ward" },
             { "Agent Cryptic", "Cameron Cryptic" },
             { "Agent Fission", "Felicia Fission" },
             { "Agent Elysium", "Elena Elysium" },
@@ -251,32 +240,22 @@ namespace XingYeAPI.Other
             { "Agent Dolce", "Dawn Dolce" },
             { "Agent Vanguard", "Victor Vanguard" },
             { "Agent Surge", "Selena Surge" },
-            { "Agent Cipher", "Clayton Cipher" },
+            { "Agent Code", "Derek Code" },
             { "Agent Thorne", "Tori Thorne" },
-            { "Agent Wraith", "Wesley Wraith" },
             { "Agent Nighthawk", "Nina Nighthawk" },
             { "Agent Haven", "Henry Haven" },
             { "Agent Locus", "Leah Locus" },
             { "Agent Feral", "Frank Feral" },
-            { "Agent Mirage", "Martha Mirage" },
             { "Agent Equinox", "Eli Equinox" },
-            { "Agent Vanguard", "Vera Vanguard" },
             { "Agent Havoc", "Holly Havoc" },
-            { "Agent Oracle", "Oscar Oracle" },
             { "Agent Resistance", "Ron Resistance" },
-            { "Agent Zenith", "Zane Zenith" },
             { "Agent Mistral", "Mia Mistral" },
-            { "Agent Solstice", "Sterling Solstice" },
-            { "Agent Nightshade", "Nora Nightshade" },
-            { "Agent Cinder", "Carl Cinder" },
             { "Agent Gloom", "Gina Gloom" },
             { "Agent Plague", "Perry Plague" },
             { "Agent Radiant", "Rachel Radiant" },
             { "Agent Stalker", "Simon Stalker" },
-            { "Agent Strider", "Sophie Strider" },
             { "Agent Kismet", "Kyla Kismet" },
-            { "Agent Rift", "Riley Rift" },
-            { "Agent Catalyst", "Clara Catalyst" }
+            { "Agent Volt", "Liam Volt" }
         };
 
         /// <summary>

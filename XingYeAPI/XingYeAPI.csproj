@@ -96,10 +96,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\LogLevelType.cs" />
+    <Compile Include="Enums\SpawnType.cs" />
     <Compile Include="Extensions\Player_Extensions\CustomRoles.cs" />
     <Compile Include="Extensions\Player_Extensions\Spectating.cs" />
     <Compile Include="Extensions\RoleTypeId_Extensions\Translated.cs" />
     <Compile Include="Extensions\RoomType_Extensions\Translated.cs" />
+    <Compile Include="Log\PlayerCLog.cs" />
+    <Compile Include="Log\ServerCLog.cs" />
     <Compile Include="Other\List.cs" />
     <Compile Include="Other\Random.cs" />
     <Compile Include="ReadMe.cs" />

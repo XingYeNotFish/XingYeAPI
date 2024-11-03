@@ -1,9 +1,11 @@
-﻿using Exiled.API.Features;
+﻿using Exiled.API.Enums;
+using Exiled.API.Features;
 using Exiled.CustomRoles.API.Features;
 using PlayerRoles;
 using System.Collections.Generic;
 using System.Linq;
 using XingYeAPI.Extensions.Player_Extensions;
+using XingYeAPI.Enums;
 
 namespace XingYeAPI.Other
 {
@@ -26,15 +28,6 @@ namespace XingYeAPI.Other
         // >===================== 随机数相关 =====================< \\
 
         // >===================== 随机刷新相关 =====================< \\
-
-        public enum XingYeSpawnType : sbyte
-        {
-            None = -1,
-            FromClassD,
-            FromScientist,
-            FromFacilityGuard,
-            FromSpectator,
-        }
 
         /// <summary>
         /// 随机从预定的角色列表中随机分配自定义角色 <code>仅支持CustomRoles的角色!</code>
@@ -83,5 +76,63 @@ namespace XingYeAPI.Other
         }
 
         // >===================== 随机刷新相关 =====================< \\
+
+        // >===================== 随机玩家相关 =====================< \\
+
+        /// <summary>
+        /// 这将随机返回一个玩家(包含所有玩家)
+        /// </summary>
+        /// <returns></returns>
+        public static Player RandomPlayer()
+        {
+            List<Player> players = Player.List.ToList();
+            return players[UnityEngine.Random.Range(0, players.Count)];
+        }
+
+        /// <summary>
+        /// 这将随机返回一个玩家(仅包含指定角色类型)
+        /// </summary>
+        /// <param name="roleType"></param>
+        /// <returns></returns>
+        public static Player RandomPlayer(RoleTypeId roleType)
+        {
+            List<Player> players = Player.Get(roleType).ToList();
+            return players[UnityEngine.Random.Range(0, players.Count)];
+        }
+
+        /// <summary>
+        /// 这将随机返回一个玩家(仅包含指定队伍[Team])
+        /// </summary>
+        /// <param name="team"></param>
+        /// <returns></returns>
+        public static Player RandomPlayer(Team team)
+        {
+            List<Player> players = Player.Get(team).ToList();
+            return players[UnityEngine.Random.Range(0, players.Count)];
+        }
+
+        /// <summary>
+        /// 这将随机返回一个玩家(仅包含指定阵营[Side])
+        /// </summary>
+        /// <param name="side"></param>
+        /// <returns></returns>
+        public static Player RandomPlayer(Side side)
+        {
+            List<Player> players = Player.Get(side).ToList();
+            return players[UnityEngine.Random.Range(0, players.Count)];
+        }
+
+        /// <summary>
+        /// 这将随机返回一个玩家(仅包含指定阵营[LeadingTeam])
+        /// </summary>
+        /// <param name="leadingTeam"></param>
+        /// <returns></returns>
+        public static Player RandomPlayer(LeadingTeam leadingTeam)
+        {
+            List<Player> players = Player.List.Where(p => p.LeadingTeam == leadingTeam).ToList();
+            return players[UnityEngine.Random.Range(0, players.Count)];
+        }
+
+        // >===================== 随机玩家相关 =====================< \\
     }
 }

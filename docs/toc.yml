@@ -1,5 +1,5 @@
-- name: Articles
-  href: https://github.com/XingYeNotFish/XingYeAPI/wiki/Player_Extensions
+- name: Wiki
+  href: https://github.com/XingYeNotFish/XingYeAPI/wiki
 - name: API Documentation
   href: api/XingYeAPI.html
 - name: GitHub

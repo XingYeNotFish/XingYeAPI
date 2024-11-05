@@ -1,7 +1,3 @@
----
-title: Home
----
-
 # XingYeAPI
 
 欢迎来到XingYeAPI的官方文档！
